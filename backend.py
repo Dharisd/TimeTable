@@ -1,8 +1,7 @@
 from flask import Flask,request,jsonify,render_template
-from flask_cors import CORS
 from TimeTable_main import Timetable
 app = Flask(__name__)
-CORS(app)
+
 
 Table = Timetable()
 Table.setup_newConnection("prodData.db")
