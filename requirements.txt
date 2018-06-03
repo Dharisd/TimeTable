@@ -18,3 +18,4 @@ six==1.11.0
 Werkzeug==0.14.1
 wincertstore==0.2
 gunicorn==19.8.1
+Flask-Cors==3.0.2
