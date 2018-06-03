@@ -32,7 +32,7 @@ class Timetable:
         #now get the classess
         cursor.execute("select class_name from classes")
         self.classes = [item[0] for item in cursor.fetchall()]
-        print(self.subjects[0])
+        #print(self.subjects[0])
         return(True)
 
 
